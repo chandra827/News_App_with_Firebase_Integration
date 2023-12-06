@@ -45,6 +45,12 @@ Enjoy the responsive design, ensuring a great user experience even on mobile dev
 
 ![image_2023-12-06_23-59-13](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/256d2c19-d734-419a-b559-c98c03b99af2)
 
+
+### 5. Video Preview
+
+(https://drive.google.com/file/d/1ehkY3dIJji8kaRPt33KE8YsycgfrNr8M/view?usp=sharing)
+
+
 ## Getting Started
 
 1. Clone the repository.
