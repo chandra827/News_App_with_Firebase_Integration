@@ -20,21 +20,21 @@ Welcome to Triveous News App – your go-to platform for staying informed and co
 
 Explore the latest news articles and effortlessly add them to your favorites directly from the landing page. Click "Read More" for detailed information.
 
-![Landing Page]![image_2023-12-06_23-57-09](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/33cb7cd0-343d-4c05-8d68-c1cd446d63de)
+![image_2023-12-06_23-57-09](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/33cb7cd0-343d-4c05-8d68-c1cd446d63de)
 
 
 ### 2. Article Description Page
 
 Immerse yourself in detailed article descriptions, including text and media. Click "Read More" to access the full article seamlessly.
 
-![Article Description]![image_2023-12-06_23-58-02](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/8ab27524-f231-4c72-9d69-936c6b0c9d38)
+![image_2023-12-06_23-58-02](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/8ab27524-f231-4c72-9d69-936c6b0c9d38)
 
 
 ### 3. Sign In/Sign Up Page
 
 Sign in with your email and password or opt for hassle-free Google Sign-In. New users can register securely with password validation.
 
-![Sign In/Sign Up]![image_2023-12-06_23-58-25](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/4e888e0e-8fb1-4d7b-b551-7938ea191e08)
+![image_2023-12-06_23-58-25](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/4e888e0e-8fb1-4d7b-b551-7938ea191e08)
 
 ![image_2023-12-06_23-58-37](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/15a5b807-89fa-4dc9-927e-5cdbaa52e4ac)
 
@@ -43,7 +43,7 @@ Sign in with your email and password or opt for hassle-free Google Sign-In. New 
 
 Enjoy the responsive design, ensuring a great user experience even on mobile devices.
 
-![Mobile View]![image_2023-12-06_23-59-13](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/256d2c19-d734-419a-b559-c98c03b99af2)
+![image_2023-12-06_23-59-13](https://github.com/chandra827/News_App_with_Firebase_Integration/assets/100562557/256d2c19-d734-419a-b559-c98c03b99af2)
 
 ## Getting Started
 
