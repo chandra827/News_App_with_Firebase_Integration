@@ -14,54 +14,46 @@ const Artical = ({ data }) => {
         useremail: ''
     })
 
+    // Function to fetch favorite news data
     const getfavdata = () => {
         axios.get(`https://flash-breezy-chime.glitch.me/favourite`).then(res => {
-            //console.log('getuser',res.data)
             setcheckfavnews(res.data)
-
-        }
-        )
+        });
     }
+
+    // Function to handle adding news to favorites
     const handlefavouritenews = (e) => {
-        e.preventDefault()
-        // console.log('fav', data);
-        if(user || authData){
-            console.log('added in fav', checkfavnews);
-                try {
-                    axios.post(`https://flash-breezy-chime.glitch.me/favourite`, {
-                        ...data,
-                        username: name.username,
-                        useremail: name.useremail
-                    })
-                        .then(res => {
-                            if (res) {
-                                toast('added in Favourite!', {
-                                    icon: '✔️ ',
-                                });
-                            }
-                        })
-                } catch (error) {
-                    console.log(error)
-                }
-            
-        }else{
-            toast('Please login in first!', {
+        e.preventDefault();
+
+        if (user || authData) {
+            try {
+                axios.post(`https://flash-breezy-chime.glitch.me/favourite`, {
+                    ...data,
+                    username: name.username,
+                    useremail: name.useremail
+                }).then(res => {
+                    if (res) {
+                        toast('Added to Favorites!', {
+                            icon: '✔️ ',
+                        });
+                    }
+                });
+            } catch (error) {
+                console.log(error);
+            }
+        } else {
+            toast('Please log in first!', {
                 icon: ' ',
             });
         }
-       
-
-
     }
 
-
+    // Effect to set user data when the component mounts
     useEffect(() => {
-
-        getfavdata()
-
-
-
+        getfavdata();
     }, [])
+
+    // Effect to set username and useremail when the user object changes
     useEffect(() => {
         if (user) {
             setname((prevUser) => ({
@@ -72,6 +64,7 @@ const Artical = ({ data }) => {
         }
     }, [user]);
 
+    // Effect to set username and useremail when the authData object changes
     useEffect(() => {
         if (authData) {
             setname((prevUser) => ({
@@ -81,15 +74,13 @@ const Artical = ({ data }) => {
             }));
         }
     }, [authData]);
-    
-
 
     return (
-
-        <div className='' >
+        <div className=''>
             <Toaster />
-            <article   className=" h-[100%] flex flex-col w-full relative max-w-sm mx-auto transition-all duration-200 ease-out rounded-lg shadow-md bg-article-light dark:bg-article-dark shadow-article-light-secondary/70 dark:shadow-article-dark-primary/70 hover:shadow-xl hover:shadow-article-light-secondary dark:hover:shadow-dark-primary">
+            <article className="h-[100%] flex flex-col w-full relative max-w-sm mx-auto transition-all duration-200 ease-out rounded-lg shadow-md bg-article-light dark:bg-article-dark shadow-article-light-secondary/70 dark:shadow-article-dark-primary/70 hover:shadow-xl hover:shadow-article-light-secondary dark:hover:shadow-dark-primary">
                 <a href="" onClick={handlefavouritenews} className='hover:cursor-pointer justify-end absolute right-5 mt-3'>
+                    {/* Heart icon for adding to favorites */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-10 h-10 text-gray-100 hover:text-red-500 transition-colors duration-300"
@@ -105,19 +96,18 @@ const Artical = ({ data }) => {
                             fill="currentColor"
                         ></path>
                     </svg>
-
-
                 </a>
                 {
                     data &&
-                    <img src={data?.urlToImage} className="object-cover w-full rounded-t-lg h-60 " />
-
-
+                    // Display article image
+                    <img src={data?.urlToImage} className="object-cover w-full rounded-t-lg h-60" />
                 }
                 <div className="flex flex-col flex-1">
                     <div className="flex flex-col flex-1 p-5">
+                        {/* Display article title */}
                         <h2 className="text-gray-600 font-serif font-bold text-article-dark dark:text-article-light">{data.title}</h2>
                     </div>
+                    {/* Read more button component */}
                     <ReadMoreButton data={data} />
                 </div>
             </article>
