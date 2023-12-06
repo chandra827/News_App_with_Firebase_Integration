@@ -1,15 +1,15 @@
 {
   "users": [
     {
-      "displayName": "Gaurav Pardeshi",
-      "email": "gauravpardeshi068@gmail.com",
-      "password": "1111",
+      "displayName": "Chandra Shekhar",
+      "email": "chandrashekharnext@gmail.com",
+      "password": "1234",
       "id": 1
     },
     {
-      "displayName": "Bhushan Pardeshi",
-      "email": "bhushan@gmail.com",
-      "password": "2222",
+      "displayName": "Radhe kumar",
+      "email": "rrkumar123@gmail.com",
+      "password": "9874",
       "id": 2
     }
   ],
@@ -26,8 +26,8 @@
       "urlToImage": "https://c.ndtvimg.com/2023-10/gt56jbq_spain-nightclub-fire-twitter_625x300_01_October_23.jpg",
       "publishedAt": "2023-10-01T10:30:20Z",
       "content": "Thick smoke could be seen billowing from the roof of the building\r\nMadrid: At least seven people were killed in a fire in a Spanish nightclub on Sunday morning, authorities said, with four more repor… [+1458 chars]",
-      "username": "Gaurav Pardeshi",
-      "useremail": "gauravpardeshi068@gmail.com",
+      "username": "Chandra Shekhar",
+      "useremail": "chandrashekharnext@gmail.com",
       "id": 1
     },
     {
@@ -42,8 +42,8 @@
       "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/10/01/1600x900/bad_1696141645451_1696141657983.jpg",
       "publishedAt": "2023-10-01T10:28:23Z",
       "content": "Asian Games, India vs China men's badminton team finals Live Updates: Lakshya Sen hands India early advantage in the men's team badminton final against China at the Asian Games. Sen engages in a thre… [+15823 chars]",
-      "username": "Gaurav Pardeshi",
-      "useremail": "gauravpardeshi068@gmail.com",
+      "username": "Chandra Shekhar",
+      "useremail": "chandrashekharnext@gmail.com",
       "id": 2
     }
   ]
