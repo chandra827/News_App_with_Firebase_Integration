@@ -14,6 +14,10 @@ Welcome to Triveous News App – your go-to platform for staying informed and co
 - **Axios:** A reliable HTTP client for making backend requests and fetching news articles.
 - **OAuth (Google Login):** Secure and convenient Google authentication for user login.
 
+### Live Link:
+
+(https://news-app-with-firebase-integration-ten.vercel.app/)
+
 ## Features
 
 ### 1. Landing Page
